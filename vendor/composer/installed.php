@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '8fa7e5dcb22bc90aa5763c3514a87c6393f220b9',
+        'reference' => '5dd8032c1f2de004800cb49ec8af8cfb4ece6412',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -451,7 +451,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '8fa7e5dcb22bc90aa5763c3514a87c6393f220b9',
+            'reference' => '5dd8032c1f2de004800cb49ec8af8cfb4ece6412',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -549,6 +549,15 @@
             'aliases' => array(),
             'reference' => '14daed4296fae74d9e3201d2c4925d1acb7aa614',
             'dev_requirement' => true,
+        ),
+        'myclabs/php-enum' => array(
+            'pretty_version' => '1.6.6',
+            'version' => '1.6.6.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../myclabs/php-enum',
+            'aliases' => array(),
+            'reference' => '32c4202886c51fbe5cc3a7c34ec5c9a4a790345e',
+            'dev_requirement' => false,
         ),
         'nesbot/carbon' => array(
             'pretty_version' => '2.57.0',
@@ -808,8 +817,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
@@ -834,6 +843,15 @@
             'install_path' => __DIR__ . '/../psy/psysh',
             'aliases' => array(),
             'reference' => '7f7da640d68b9c9fec819caae7c744a213df6514',
+            'dev_requirement' => false,
+        ),
+        'qiniu/php-sdk' => array(
+            'pretty_version' => 'v7.4.2',
+            'version' => '7.4.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../qiniu/php-sdk',
+            'aliases' => array(),
+            'reference' => '8414ee6b0027acc682469c7a2e7144f3ed2b7676',
             'dev_requirement' => false,
         ),
         'ralouphie/getallheaders' => array(
